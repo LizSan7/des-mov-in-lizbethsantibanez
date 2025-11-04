@@ -6,6 +6,8 @@ String mapAuthErrorToMessage(Object e) {
     case 'user-not-found':
     case 'wrong-password':
       return 'Correo o contraseña inválidos.'; // mensaje genérico
+    case 'weak-password':
+      return 'La contraseña no cumple los requisitos.';
     case 'user-disabled':
       return 'La cuenta está deshabilitada.';
     case 'too-many-requests':
