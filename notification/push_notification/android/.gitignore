@@ -1,0 +1,22 @@
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore
+key.properties
+**/*.keystore
+**/*.jks
+
+//quitar el archivo de node_modules dentro de server
+!server/node_modules/.gitkeep
+# Sensitive files
+server/serviceAccountKey.json
+notification/push_notification/android/app/google-services.json
+# Node modules
+server/node_modules/

@@ -1,0 +1,19 @@
+# Archivos sensibles
+notification/server/serviceAccountKey.json
+notification/push_notification/android/app/google-services.json
+
+# Node modules
+notification/server/node_modules/
+
+# Flutter build
+notification/push_notification/build/
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
