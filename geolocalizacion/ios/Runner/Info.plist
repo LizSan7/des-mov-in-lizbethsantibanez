@@ -5,6 +5,9 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>La app necesita tu ubicación para mostrarla en el mapa.</string>
 	<key>CFBundleDevelopmentRegion</key>
+	<key>io.flutter.embedded_views_preview</key><true/>
+   <key>NSLocationWhenInUseUsageDescription</key><string>Necesitamos tu ubicación para mostrar el mapa.</string>
+   <key>GMSApiKey</key><string>android:name="com.google.android.geo.API_KEY"</string>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Geolocalizacion</string>
